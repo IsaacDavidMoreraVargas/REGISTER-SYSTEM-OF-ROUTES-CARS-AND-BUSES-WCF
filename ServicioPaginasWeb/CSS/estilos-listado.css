@@ -1,0 +1,57 @@
+﻿.drop1 {
+    position: absolute;
+    border-radius: 0px;
+    border: medium solid black;
+    background-color: black;
+    color: white;
+    top: 354px;
+    left: 429px;
+    height: 47px;
+    width: 218px;
+}
+
+.drop2 {
+    position: absolute;
+    border-radius: 0px;
+    border: medium solid black;
+    background-color: none;
+    color: black;
+    top: 410px;
+    left: 430px;
+    width: 133px;
+    height: 66px;
+}
+
+.drop3 {
+    position: absolute;
+    border-radius: 0px;
+    border: medium solid black;
+    background-color: none;
+    color: black;
+    top: 547px;
+    left: 386px;
+    width: 66px;
+    height: 94px;
+}
+
+.drop4 {
+    position: absolute;
+    border: medium solid black;
+    background-color: none;
+    color: black;
+    top: 352px;
+    left: 672px;
+    width: 219px;
+    height: 116px;
+}
+
+.img1 {
+    position: absolute;
+    border-radius: 0px;
+    border: medium solid black;
+    background-color: none;
+    top: 409px;
+    left: 573px;
+    height: 59px;
+    width: 64px;
+}

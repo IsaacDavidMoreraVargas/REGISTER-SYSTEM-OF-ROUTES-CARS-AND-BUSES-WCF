@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9d330235-8203-4de6-b79e-0befa41cdb44" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55275/IServicioBus.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IServicioBus.xsd" MetadataType="Schema" ID="180fd436-3da9-47a2-a706-9a7a84eedf4d" SourceId="1" SourceUrl="http://localhost:55275/IServicioBus.svc?xsd=xsd1" />
+    <MetadataFile FileName="IServicioBus.wsdl" MetadataType="Wsdl" ID="b0e95461-a20f-44a9-b668-20e3a79ef08e" SourceId="1" SourceUrl="http://localhost:55275/IServicioBus.svc?wsdl" />
+    <MetadataFile FileName="IServicioBus.disco" MetadataType="Disco" ID="19fc4ac8-1764-4c2e-ac9a-06a38863eb38" SourceId="1" SourceUrl="http://localhost:55275/IServicioBus.svc?disco" />
+    <MetadataFile FileName="IServicioBus1.xsd" MetadataType="Schema" ID="225d5bcc-26b8-48f9-a651-35a3b07bef9e" SourceId="1" SourceUrl="http://localhost:55275/IServicioBus.svc?xsd=xsd2" />
+    <MetadataFile FileName="IServicioBus2.xsd" MetadataType="Schema" ID="f960eacb-e886-420f-9263-38e9813c5b38" SourceId="1" SourceUrl="http://localhost:55275/IServicioBus.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

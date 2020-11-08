@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7843ce0c-25fc-44c3-8395-d9580e716384" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55275/ServiciosRutas.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiciosRutas.xsd" MetadataType="Schema" ID="f593b6b0-51e8-4fc4-b57f-60c3cea8f74f" SourceId="1" SourceUrl="http://localhost:55275/ServiciosRutas.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiciosRutas.wsdl" MetadataType="Wsdl" ID="9fc4a24d-738b-44c7-b0da-d54f4bf27bd2" SourceId="1" SourceUrl="http://localhost:55275/ServiciosRutas.svc?wsdl" />
+    <MetadataFile FileName="ServiciosRutas.disco" MetadataType="Disco" ID="ce1c5654-b8f5-4c7d-84e2-422e0e3eea29" SourceId="1" SourceUrl="http://localhost:55275/ServiciosRutas.svc?disco" />
+    <MetadataFile FileName="ServiciosRutas1.xsd" MetadataType="Schema" ID="9a73b81f-4b9b-4571-b7c2-423a12215539" SourceId="1" SourceUrl="http://localhost:55275/ServiciosRutas.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiciosRutas2.xsd" MetadataType="Schema" ID="9fd53fd9-0756-4e06-a998-49068a783a42" SourceId="1" SourceUrl="http://localhost:55275/ServiciosRutas.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

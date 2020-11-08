@@ -1,0 +1,13 @@
+C:\Users\usuario16\source\repos\WcfSERVIDOR\WcfSERVIDOR\obj\Debug\WcfSERVIDOR.csproj.CoreCompileInputs.cache
+C:\Users\usuario16\source\repos\WcfSERVIDOR\WcfSERVIDOR\bin\WcfSERVIDOR.dll.config
+C:\Users\usuario16\source\repos\WcfSERVIDOR\WcfSERVIDOR\bin\WcfSERVIDOR.dll
+C:\Users\usuario16\source\repos\WcfSERVIDOR\WcfSERVIDOR\bin\WcfSERVIDOR.pdb
+C:\Users\usuario16\source\repos\WcfSERVIDOR\WcfSERVIDOR\obj\Debug\WcfSERVIDOR.dll
+C:\Users\usuario16\source\repos\WcfSERVIDOR\WcfSERVIDOR\obj\Debug\WcfSERVIDOR.pdb
+C:\Users\Alcatraz\Desktop\Nueva carpeta\03075-FUNDAMENTOS PROGRAMACION WEB\PROYECTOIII\WcfSERVIDOR\bin\WcfSERVIDOR.dll.config
+C:\Users\Alcatraz\Desktop\Nueva carpeta\03075-FUNDAMENTOS PROGRAMACION WEB\PROYECTOIII\WcfSERVIDOR\bin\WcfSERVIDOR.dll
+C:\Users\Alcatraz\Desktop\Nueva carpeta\03075-FUNDAMENTOS PROGRAMACION WEB\PROYECTOIII\WcfSERVIDOR\bin\WcfSERVIDOR.pdb
+C:\Users\Alcatraz\Desktop\Nueva carpeta\03075-FUNDAMENTOS PROGRAMACION WEB\PROYECTOIII\WcfSERVIDOR\obj\Debug\WcfSERVIDOR.csprojAssemblyReference.cache
+C:\Users\Alcatraz\Desktop\Nueva carpeta\03075-FUNDAMENTOS PROGRAMACION WEB\PROYECTOIII\WcfSERVIDOR\obj\Debug\WcfSERVIDOR.csproj.CoreCompileInputs.cache
+C:\Users\Alcatraz\Desktop\Nueva carpeta\03075-FUNDAMENTOS PROGRAMACION WEB\PROYECTOIII\WcfSERVIDOR\obj\Debug\WcfSERVIDOR.dll
+C:\Users\Alcatraz\Desktop\Nueva carpeta\03075-FUNDAMENTOS PROGRAMACION WEB\PROYECTOIII\WcfSERVIDOR\obj\Debug\WcfSERVIDOR.pdb

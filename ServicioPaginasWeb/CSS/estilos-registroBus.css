@@ -1,0 +1,249 @@
+﻿.img1 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    border: medium solid black;
+    left: 477px;
+    height: 37px;
+    width: 84px;
+    top: 684px;
+}
+
+.img2 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    top: 731px;
+    left: 573px;
+    height: 27px;
+    width: 69px;
+}
+
+.img3 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    border: medium solid black;
+    left: 477px;
+    height: 35px;
+    width: 84px;
+    top: 731px;
+}
+
+.img4 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    border: medium solid black;
+    left: 320px;
+    height: 36px;
+    width: 147px;
+    top: 731px;
+    margin-top: 0px;
+}
+
+.img5 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    border: medium solid black;
+    left: 572px;
+    height: 36px;
+    width: 77px;
+    top: 683px;
+}
+
+.drop1 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 417px;
+    left: 14px;
+    height: 26px;
+    width: 264px;
+}
+
+.drop2 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    left: 18px;
+    height: 26px;
+    width: 264px;
+    top: 721px;
+    right: 674px;
+}
+
+.drop3 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 26px;
+    width: 264px;
+    top: 413px;
+    left: 804px;
+}
+
+.text1 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 719px;
+    left: 808px;
+    width: 250px;
+}
+
+.text2 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    border: medium solid black;
+    top: 569px;
+    left: 806px;
+    width: 250px;
+}
+
+.text3 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 569px;
+    left: 13px;
+    width: 250px;
+}
+
+.text4 {
+    position:absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 9px;
+    left: 25px;
+    width: 172px;
+}
+
+.text5 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 684px;
+    left: 318px;
+    width: 138px;
+    height: 28px;
+    margin-top: 0px;
+    bottom: 104px;
+}
+
+.text6 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 682px;
+    left: 655px;
+    width: 136px;
+    height: 73px;
+    margin-top: 0px;
+}
+
+.label2 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    Width: 264px;
+    top: 506px;
+    left: 12px;
+    margin-top: 0px;
+}
+
+.labe2:read-only {
+    cursor: not-allowed;
+}
+
+.label3 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    Width: 264px;
+    top: 661px;
+    left: 16px;
+}
+
+    .label3:read-only {
+        cursor: not-allowed;
+    }
+
+.label4 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    Width: 264px;
+    top: 355px;
+    left: 804px;
+    right: 7px;
+}
+
+    .label4:read-only {
+        cursor: not-allowed;
+    }
+
+.label5 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    Width: 264px;
+    top: 661px;
+    left: 808px;
+    margin-top: 0px;
+}
+
+    .label5:read-only {
+        cursor: not-allowed;
+    }
+
+.label6 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 507px;
+    left: 806px;
+    height: 30px;
+    Width: 264px;
+}
+
+
+.label {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 416px;
+    left: 617px;
+    height: 30px;
+    Width: 264px;
+}
+
+    .label:read-only {
+        cursor: not-allowed;
+    }
+
+
+.panel {
+    position: absolute;
+    overflow: auto;
+}

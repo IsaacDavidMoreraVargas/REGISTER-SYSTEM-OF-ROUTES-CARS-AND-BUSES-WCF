@@ -1,0 +1,194 @@
+﻿header {
+    border-color: none;
+    background-image: url(imagen/sn.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 90.5%;
+    height: 386px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+
+a {
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    border-style: solid;
+    border-radius: 0px;
+    text-align: center;
+    width: 90.5%;
+    height: 5%;
+    text-align: center;
+    position: absolute;
+}
+
+
+.img0 {
+    border-radius: 0px;
+    border: medium solid black;
+    background-color: black;
+    background-image: url('imagen/separador2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 96%;
+    height: 9%;
+    top: 8%;
+    left: 1%;
+    position: absolute;
+}
+
+
+.img1 {
+    border-radius: 0px;
+    border: medium solid black;
+    background-color: black;
+    background-image: url('imagen/separador1.png');
+    background-position: center center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 16%;
+    height: 10%;
+    top: 28%;
+    left: 1%;
+    position: absolute;
+    right: 307px;
+}
+
+.img2 {
+    border-radius: 0px;
+    transition: all 0.5s linear;
+    border: medium solid black;
+    background-color: black;
+    background-image: url('imagen/separador2.png');
+    background-position: center center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 70%;
+    height: 8%;
+    top: 29%;
+    left: 27%;
+    position: absolute;
+}
+
+    .img2:hover {
+        transform: scale(0.9);
+        border-color: #525150;
+    }
+
+
+.img3 {
+    border-radius: 0px;
+    border: medium solid black;
+    background-color: black;
+    background-image: url('imagen/separador1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-size: 100% 100%;
+    width: 16%;
+    height: 9%;
+    top: 49%;
+    left: 1%;
+    position: absolute;
+}
+
+.img4 {
+    border-radius: 0px;
+    transition: all 0.5s linear;
+    border: medium solid black;
+    background-color: black;
+    background-image: url('imagen/separador2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-size: 100% 100%;
+    width: 69%;
+    height: 9%;
+    top: 48%;
+    left: 27%;
+    position: absolute;
+}
+
+    .img4:hover {
+        transform: scale(0.9);
+        border-color: #525150;
+    }
+
+.img5 {
+    border-radius: 0px;
+    border: medium solid black;
+    background-color: black;
+    background-image: url('imagen/separador1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-size: 100% 100%;
+    width: 16%;
+    height: 10%;
+    top: 69%;
+    left: 2%;
+    position: absolute;
+    right: 304px;
+}
+
+.img6 {
+    border-radius: 0px;
+    transition: all 0.5s linear;
+    border: medium solid black;
+    background-color: black;
+    background-image: url('imagen/separador2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 69%;
+    height: 8%;
+    top: 70%;
+    left: 27%;
+    position: absolute;
+}
+
+    .img6:hover {
+        transform: scale(0.9);
+        border-color: #525150;
+    }
+
+
+.colorTable {
+    top: 409px;
+    position: absolute;
+    background-color: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px;
+    left: 420px;
+    height: 346px;
+    width: 379px;
+}

@@ -1,0 +1,239 @@
+﻿.paneles {
+    position: absolute;
+    overflow: auto;
+    top: 343px;
+    text-align: center;
+    left: 308px;
+    width: 462px;
+    height: 329px;
+}
+
+.paneles1{
+    position: absolute;
+    overflow: auto;
+    top: 629px;
+    text-align: center;
+    border: medium solid black;
+    left: 793px;
+    width: 254px;
+    height: 126px;
+}
+
+
+.img1 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    border: medium solid black;
+    top: 693px;
+    left: 621px;
+    height: 35px;
+    width: 81px;
+}
+
+.img2 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    top: 736px;
+    left: 623px;
+    height: 30px;
+    width: 71px;
+}
+
+.img3 {
+    position: absolute;
+    overflow: auto;
+    top: 735px;
+    text-align: center;
+    border: medium solid black;
+    left: 455px;
+    width: 90px;
+    height: 39px;
+}
+
+.drop1 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 399px;
+    left: 16px;
+    height: 26px;
+    width: 264px;
+}
+
+.drop2 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    left: 15px;
+    height: 26px;
+    width: 264px;
+    top: 710px;
+}
+
+.drop3 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 26px;
+    width: 264px;
+    top: 396px;
+    left: 793px;
+}
+
+.text1 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 707px;
+    left: 17px;
+    width: 253px;
+}
+
+.text2 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    border: medium solid black;
+    top: 560px;
+    left: 793px;
+    width: 256px;
+}
+
+.text3 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 561px;
+    left: 16px;
+    width: 250px;
+}
+
+.text4 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 347px;
+    left: 307px;
+    width: 366px;
+    height: 328px;
+}
+
+.text5 {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    color: black;
+    top: 692px;
+    left: 309px;
+    width: 125px;
+    height: 26px;
+    right: 629px;
+}
+
+.label2 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    Width: 264px;
+    top: 508px;
+    left: 14px;
+    margin-top: 0px;
+}
+
+.labe2:read-only {
+    cursor: not-allowed;
+}
+
+.label3 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    Width: 264px;
+    top: 654px;
+    left: 16px;
+}
+
+    .label3:read-only {
+        cursor: not-allowed;
+    }
+
+.label4 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    Width: 264px;
+    top: 344px;
+    left: 792px;
+    right: 19px;
+}
+
+    .label4:read-only {
+        cursor: not-allowed;
+    }
+
+.label5 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+    Width: 264px;
+    top: 649px;
+    left: 704px;
+    margin-top: 0px;
+}
+
+    .label5:read-only {
+        cursor: not-allowed;
+    }
+
+.label6 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 505px;
+    left: 791px;
+    height: 30px;
+    Width: 264px;
+}
+
+
+.label {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 416px;
+    left: 617px;
+    height: 30px;
+    Width: 264px;
+}
+
+    .label:read-only {
+        cursor: not-allowed;
+    }
+
+.Boton {
+    position: absolute;
+    text-align: center;
+    border: medium solid black;
+    top: 691px;
+    left: 455px;
+    height: 36px;
+    Width: 91px;
+}

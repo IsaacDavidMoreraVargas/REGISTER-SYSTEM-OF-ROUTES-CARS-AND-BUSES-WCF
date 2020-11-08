@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="IServicioBus" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:55275/IServicioBus.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:55275/IServicioBus.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:55275/IServicioBus.svc?xsd=xsd2" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IIServicioBus_GetAllBusesData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllBusesData" />
+  </wsdl:message>
+  <wsdl:message name="IIServicioBus_GetAllBusesData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllBusesDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIServicioBus_FillDataBus_InputMessage">
+    <wsdl:part name="parameters" element="tns:FillDataBus" />
+  </wsdl:message>
+  <wsdl:message name="IIServicioBus_FillDataBus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FillDataBusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIServicioBus_EditDataBus_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditDataBus" />
+  </wsdl:message>
+  <wsdl:message name="IIServicioBus_EditDataBus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditDataBusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIServicioBus_GetBusEspecifico_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBusEspecifico" />
+  </wsdl:message>
+  <wsdl:message name="IIServicioBus_GetBusEspecifico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBusEspecificoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IIServicioBus">
+    <wsdl:operation name="GetAllBusesData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIServicioBus/GetAllBusesData" message="tns:IIServicioBus_GetAllBusesData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIServicioBus/GetAllBusesDataResponse" message="tns:IIServicioBus_GetAllBusesData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FillDataBus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIServicioBus/FillDataBus" message="tns:IIServicioBus_FillDataBus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIServicioBus/FillDataBusResponse" message="tns:IIServicioBus_FillDataBus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditDataBus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIServicioBus/EditDataBus" message="tns:IIServicioBus_EditDataBus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIServicioBus/EditDataBusResponse" message="tns:IIServicioBus_EditDataBus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBusEspecifico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIServicioBus/GetBusEspecifico" message="tns:IIServicioBus_GetBusEspecifico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIServicioBus/GetBusEspecificoResponse" message="tns:IIServicioBus_GetBusEspecifico_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IIServicioBus" type="tns:IIServicioBus">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllBusesData">
+      <soap:operation soapAction="http://tempuri.org/IIServicioBus/GetAllBusesData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FillDataBus">
+      <soap:operation soapAction="http://tempuri.org/IIServicioBus/FillDataBus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditDataBus">
+      <soap:operation soapAction="http://tempuri.org/IIServicioBus/EditDataBus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusEspecifico">
+      <soap:operation soapAction="http://tempuri.org/IIServicioBus/GetBusEspecifico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IServicioBus">
+    <wsdl:port name="BasicHttpBinding_IIServicioBus" binding="tns:BasicHttpBinding_IIServicioBus">
+      <soap:address location="http://localhost:55275/IServicioBus.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
